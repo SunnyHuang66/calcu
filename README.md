@@ -23,8 +23,9 @@ pip install -r requirements.txt
 
 ```
 calculator_mathcad/
-├── app.py          # Streamlit 前端界面
-├── calculator.py   # 后端计算逻辑
+├── app.py            # Streamlit 前端界面
+├── calculator.py     # 后端计算逻辑
+├── requirements.txt  # 依赖包列表
 └── README.md
 ```
 

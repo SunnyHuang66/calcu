@@ -10,17 +10,21 @@
 
 ## 安装依赖
 
+- streamlit==1.31.0
+- numpy==1.26.3
+
 ```bash
-pip install streamlit==1.31.0
-pip install numpy==1.26.3
+pip install -r requirements.txt
 ```
 
-## 文件说明
+## 项目结构
 
-| 文件 | 说明 |
-|------|------|
-| `app.py` | Streamlit 前端界面 |
-| `calculator.py` | 后端计算逻辑 |
+```
+calculator_mathcad/
+├── app.py          # Streamlit 前端界面
+├── calculator.py   # 后端计算逻辑
+└── README.md
+```
 
 ## 运行
 
